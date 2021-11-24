@@ -3,10 +3,10 @@ trigger:
 - main
 
 variables:
-  resourceGroupName: 'example'
+  resourceGroupName: 'ebensRes'
   location: 'westeurope'
   azureSubscription: 'Pipline2'
-  resourcePrefix: 'bicep'
+  resourcePrefix: 'ebs-bicep'
 
 pool:
   vmImage: ubuntu-latest
