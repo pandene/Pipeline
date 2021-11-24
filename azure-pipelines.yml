@@ -18,7 +18,7 @@ stages:
     displayName: 'Deploy bicep to Azure'
     workspace:
       clean: all 
-    environment: 'AzureDeployment'
+    environment: 'QA'
     strategy:
       runOnce:
         deploy:
