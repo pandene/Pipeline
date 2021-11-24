@@ -16,6 +16,8 @@ stages:
   jobs:
   - deployment: biceptoAzure
     displayName: 'Deploy bicep to Azure'
+    workspace:
+      clean: all 
     environment: 'AzureDeployment'
     strategy:
       runOnce:
