@@ -6,7 +6,7 @@ variables:
   resourceGroupName: 'ebensRes'
   location: 'westeurope'
   azureSubscription: 'Pipline2'
-  resourcePrefix: 'ebs-bicep'
+  resourcePrefix: 'ebs'
 
 pool:
   vmImage: ubuntu-latest
